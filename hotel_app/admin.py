@@ -35,7 +35,8 @@ class GuestAdmin(admin.ModelAdmin):
 
 class RatingAdmin(admin.ModelAdmin):
     list_display = ("created_at","rating","comment","guest_ID")
-    list_filter = ["rating"]
+    list_filter = ["rating"] 
+    #
 
 class RatingAdmin(admin.ModelAdmin):
     list_display = ("created_at","rating","comment","guest_ID")
